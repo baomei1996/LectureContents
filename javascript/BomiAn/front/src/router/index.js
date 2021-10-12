@@ -72,7 +72,15 @@ import MemberJoinColumnTestPage from '@/views/MemberJoinColumnTestPage.vue'
 import MemberJoinColumnTestForm from '@/components/member/MemberJoinColumnTestForm.vue'
 import VuetifyMemberLoginPage from '@/views/VuetifyMemberLoginPage.vue'
 
+import FileUploadPage from '@/views/FileUploadPage.vue'
+import MiniProjectDemo from '@/views/MiniProjectDemo.vue'
 
+import PythonLoginTestPage from '@/views/PythonLoginTestPage.vue'
+import KakaoLoginPage from '@/views/KakaoLoginPage.vue'
+
+import OrderTestPage from '../views/OrderTestPage.vue'
+
+import PythonCrawlTestPage from '../views/PythonCrawlTestPage.vue'
 
 
 Vue.use(VueRouter)
@@ -367,7 +375,53 @@ const routes = [
     name: 'VuetifyMemberLoginPage',
     components: {
       default: VuetifyMemberLoginPage
+      
     }
+  },
+  {
+    path: '/fileUpload',
+    name: 'FileUploadPage',
+    components: {
+      default: FileUploadPage
+      
+    }
+  },
+  {
+    path: '/miniproject',
+    name: 'MiniProjectDemo',
+    components: {
+      default: MiniProjectDemo
+      
+    }
+  },
+  {
+    path: '/pytonLoginTestPage',
+    name: 'PythonLoginTestPage',
+    components: {
+      default: PythonLoginTestPage
+      
+    }
+  },
+  {
+    path: '/kakaoLogin',
+    name: 'KakaoLoginPage',
+    components: {
+      default: KakaoLoginPage
+      
+    }
+  },
+  {
+    path: '/orderTest',
+    name: 'OrderTestPage',
+    components: {
+      default: OrderTestPage
+      
+    }
+  },
+  {
+    path: '/pythonCrawl',
+    name: 'PythonCrawlTestPage',
+    component: PythonCrawlTestPage
   },
 ]
 

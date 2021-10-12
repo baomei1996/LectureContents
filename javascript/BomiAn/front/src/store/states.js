@@ -27,6 +27,12 @@ export default {
    students: [],
 
    //크롤링
-   lists: []
+   lists: [],
+
+   test: 100,
+
+   // python 크롤링
+
+   pyLists: []
 
 }

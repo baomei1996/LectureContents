@@ -155,6 +155,36 @@
                     active-class="active">
                 Member 로그인 Test
             </router-link>
+            <router-link :to="{ name: 'FileUploadPage' }"
+                    class="nav-link"
+                    active-class="active">
+                파일 업로드 Test
+            </router-link>
+            <router-link :to="{ name: 'MiniProjectDemo' }"
+                    class="nav-link"
+                    active-class="active">
+                MiniProjectDemo
+            </router-link>
+            <router-link :to="{ name: 'PythonLoginTestPage' }"
+                    class="nav-link"
+                    active-class="active">
+                PythonLoginTestPage
+            </router-link>
+            <router-link :to="{ name: 'KakaoLoginPage' }"
+                    class="nav-link"
+                    active-class="active">
+                KakaoLoginPage
+            </router-link>
+            <router-link :to="{ name: 'OrderTestPage' }"
+                    class="nav-link"
+                    active-class="active">
+                OrderTestPage
+            </router-link>
+              <router-link :to="{ name: 'PythonCrawlTestPage' }"
+                    class="nav-link"
+                    active-class="active">
+                PythonCrawlTestPage
+            </router-link>
         </div>
     </div>
 </template>
